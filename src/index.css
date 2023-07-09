@@ -48,7 +48,7 @@ code {
 }
 .img-fluid {
   max-width: 60%;
-  width: 50%;
+  width: 45%;
 }
 .text-center {
   text-align: center;
@@ -116,26 +116,27 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
+  height: 200px;
   background-color: transparent;
   z-index: 2;
   backdrop-filter: blur(2px);
 }
 .navbar .logo {
   transition: all 0.2s;
-
+  display: flex;
   align-items: center;
   align-content: center;
   color: rgb(243, 243, 243);
   letter-spacing: 2px;
   font-weight: 400;
   margin: 0;
-  font-size: 28px;
+  font-size: 20px;
   padding-top: 10px;
 }
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin-left: 45rem;
   list-style: none;
 }
 .navbar ul li {
@@ -169,6 +170,7 @@ code {
   height: 3px;
   background-color: white;
 }
+
 /* Header */
 video {
   top: 0;
@@ -209,7 +211,7 @@ header h1 {
 /* main */
 .main-title {
   font-size: 48px;
-  color: #01bf71;
+  color: #FFC40A;
 }
 .main-p {
   font-size: 22px;
@@ -309,7 +311,7 @@ footer ul li a {
 }
 /* Services */
 .card-title {
-  color: #01bf71;
+  color: #679BF1;
   font-size: 24px;
 }
 .p-3 {
@@ -319,6 +321,7 @@ footer ul li a {
   padding: 0rem 0rem 1rem 0rem;
   font-weight: 500;
   font-size: 18px;
+  color: #ffffff;
 
 }
 
@@ -327,14 +330,14 @@ footer ul li a {
   border-radius: 10px;
   width: 100%;
   transition: all 0.2s;
-  background-color: white;
+  background-color:#F6F6F6;
   box-shadow: 5px 5px 5px 5px #e5e5e5;
 }
 .card:hover {
   transform:scale(1.03);
 }
 
-.services .col-md-4 {
+.services .col-md-4 { 
   margin: 1rem 1rem 1rem 1rem;
 
 
@@ -378,8 +381,8 @@ ul li a {
   width: 100%;
   font-weight: 500;
   z-index: 1;
-  background-color: #01bf71;
-  padding: 10px 50px;
+  background-color: #679bf1;
+  padding: 10px 50px; 
 
   transition: background-color 0.2s;
 }

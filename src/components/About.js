@@ -1,4 +1,4 @@
-import myimage from '../img/img1.png'
+import myimage from '../img/festive2.png'
 
 function About() {
   return (
@@ -11,7 +11,7 @@ function About() {
             <img alt="about" src={myimage} className="img-fluid" />
           </div>
           <div className="col-md-6">
-            <h2 className="main-title about-h2">ABOUT</h2>
+            <h2 className="main-title about-h2">ABOUT US</h2>
             <p className="main-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               quam purus, ullamcorper id risus eu, consectetur consectetur

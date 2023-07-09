@@ -1,5 +1,5 @@
-import { Link } from "react-scroll";
 import festivelogo from '../img/festive.png'
+import { Link } from "react-scroll";
 function Navbar() {
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
@@ -53,6 +53,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
                 to="headerbg"
+                offset={-100}
               >
                 Home
               </Link>
@@ -65,6 +66,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={1000}
+                offset={-100}
               >
                 Services
               </Link>
@@ -77,6 +79,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
                 activeClass="active"
+                offset={-200}
               >
                 About
               </Link>
@@ -89,6 +92,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
                 activeClass="active"
+                offset={-200}
               >
                 Contact
               </Link>

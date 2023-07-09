@@ -1,0 +1,16 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in; /* Adjust the duration (2s) for a slower fade-in */
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+  
+  .heading {
+    color: #FFC40A;
+  }
+  
+  .welcome {
+    color: white;
+  }
