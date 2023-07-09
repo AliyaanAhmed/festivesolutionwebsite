@@ -9,7 +9,7 @@ function Header() {
     // Set the fade-in effect immediately on the first load
     setFadeIn(true);
 
-    // Function to toggle the fade-in effect
+    // Function to toggle the fade-in effectt
     const toggleFade = () => {
       setFadeIn((prevValue) => !prevValue);
     };
